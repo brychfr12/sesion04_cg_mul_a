@@ -20,37 +20,45 @@ body {
  transition: all 1s;}
 }
 
-.caja:nth-child(1) {
+.caja:nth-child(1): {
 background: pruple;
 transform: TranslateX(100px)
 
 }
 
 .caja:nth-child(1):hover {
+background: pruple;
+transform: TranslateX(100px)
 }
 
-.caja:nth-child(2){
+.caja:nth-child(2):{
 background: pruple;
-transform: RotateX(310deg)
+transform: RotateY(310deg)
 }
 
 .caja:nth-child(2):hover {
+background: pruple;
+transform: RotateY(310deg)
 }
 
-.caja:nth-child(3){
+.caja:nth-child(3):{
 background: pruple;
 transform: ScaleX(3)
 }
 
 .caja:nth-child(3):hover {
+background: pruple;
+transform: ScaleX(3)
 }
 
-.caja:nth-child(4){
+.caja:nth-child(4):{
 background: pruple;
-transform: SkewX(25deg, 50deg)
+transform: Skew(25deg, 50deg)
 }
 
 .caja:nth-child(4):hover {
+background: pruple;
+transform: Skew(25deg, 50deg)
 }
 
 
